@@ -1,0 +1,53 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f3f7fa;
+}
+.top-nav {
+  background-color: #0e2143;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-nav button {
+  background-color: #11d4bb;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.hero {
+  background-color: #00d39e;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+.sidebar {
+  width: 200px;
+  background-color: #0e2143;
+  color: white;
+  position: fixed;
+  height: 100%;
+  padding: 20px;
+}
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+.trade-panel {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.actions button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #00d39e;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
